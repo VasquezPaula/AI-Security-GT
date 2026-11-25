@@ -1,0 +1,17 @@
+# Credenciales: nunca deben entrar al historial
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Documentación generada
+site/
+
+# Registro de ejecución local (la muestra versionada es registros/muestra_hito1.jsonl)
+registros/eventos.jsonl
+
+.DS_Store

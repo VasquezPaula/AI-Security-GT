@@ -1,0 +1,27 @@
+site_name: SOC Triage Assistant
+site_description: Prototipo de IA generativa para clasificar alertas de un SOC. Curso Ciberseguridad de IA, UNI.
+repo_url: https://github.com/VasquezPaula/AI-Security-GT
+docs_dir: docs
+
+theme:
+  name: material
+  language: es
+
+nav:
+  - Inicio: index.md
+  - Ficha del sistema: ficha.md
+  - Arquitectura: arquitectura.md
+  - Modelo de amenazas: modelo-de-amenazas.md
+  - Priorización: priorizacion.md
+  - Controles y riesgo residual: controles.md
+  - Evaluación adversarial: evaluacion.md
+  - Clasificación regulatoria: regulatorio.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
